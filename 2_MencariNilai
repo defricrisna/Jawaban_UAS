@@ -1,0 +1,27 @@
+	#include <stdio.h>;
+#include <conio.h>;
+
+int bil1, bil2, bil3, terbesar;
+
+main(){
+ terbesar=0;
+   printf("MENCARI NILAI TERBESAR \n");
+   printf("+=========================+");
+   printf("\n\n");
+   printf("Masukan Nilai Pertama : "); scanf("%i",&bil1);
+   printf("\nMasukan Nilai Ke-Dua  : "); scanf("%i",&bil2);
+   printf("\nMasukan Nilai Ke-Tiga : "); scanf("%i",&bil3);
+
+    if (bil1 > bil2){
+       terbesar = bil1;
+      } else terbesar=bil2;
+
+      if (terbesar > bil3){
+       terbesar=terbesar;
+      } else terbesar = bil3;
+
+
+      printf("\n\n\n\tNilai Terbesar : %i",terbesar);
+
+getch();
+}
