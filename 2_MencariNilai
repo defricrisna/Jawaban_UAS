@@ -1,10 +1,13 @@
-	#include <stdio.h>;
+#include <stdio.h>;
 #include <conio.h>;
 
 int bil1, bil2, bil3, terbesar;
 
 main(){
  terbesar=0;
+   printf("Nama	: Defri Crisna Pramudi \n ");
+   printf("NPM		: 197006065 \n ");
+   printf("Kelompok	: 5 \n ");
    printf("MENCARI NILAI TERBESAR \n");
    printf("+=========================+");
    printf("\n\n");
